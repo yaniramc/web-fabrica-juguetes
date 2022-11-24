@@ -1,4 +1,4 @@
-/* Implementando estilos para la fuente y colores de la página web */
+/* FUENTE Y COLORES DE LA PÁGINA WEB */
 .title-rocket {
     font-family: 'Bungee Spice', cursive;
 }
@@ -38,7 +38,7 @@
 }
 
 
-/* Implementando estilos en el nav */
+/* NAV */
 /* Para mostrar la barra vertical del navbar hasta un máximo de ancho de 991px.
  Esto quiere decir, que para pantallas menores de 991px de ancho, las barras verticales no se verán.
  */
@@ -49,7 +49,19 @@
 }
 
 
-/* Implementando estilos en el contenido */
+.nav-link {
+    color: rgb(0, 0, 0, 0.55);
+}
+.nav-link:hover {
+  color: #186CCC;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #186CCC;
+}
+
+
+
+/* CONTENIDO */
 /*
 Cuando la pantalla se hace pequeña(min-width: 754px) los botones se ven encima de la interfaz de los juegos, y cuando
 se hace grande(max-width: 754px), los botones se ven en el lateral izquierdo.

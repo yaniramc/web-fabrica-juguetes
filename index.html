@@ -21,40 +21,41 @@
 </head>
 
 <body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="static/images/logo.png" alt="logo" width="190">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-            <img src="static/images/logo.png" alt="logo" width="190">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <ul class="nav navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link mx-3 active" aria-current="page" href="index.html"><h5>Inicio</h5></a>
-                </li>
-                <div class="vr"></div>
-                <li class="nav-item">
-                    <a class="nav-link mx-3" href="toy-parts-section.html"><h5>Sección de piezas</h5></a>
-                </li>
-                <div class="vr"></div>
-                <li class="nav-item">
-                    <a class="nav-link mx-3" href="games-section.html"><h5>Juegos Lógicos</h5></a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <ul class="nav navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link mx-3 active" aria-current="page" href="index.html"><h5>Inicio</h5></a>
+                    </li>
+                    <div class="vr"></div>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="toy-parts-section.html"><h5>Sección de piezas</h5></a>
+                    </li>
+                    <div class="vr"></div>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="games-section.html"><h5>Juegos Lógicos</h5></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</header>
 
 <section id="banner-index">
     <img src="static/images/banner-index.jpg" alt="banner-index" class="img-fluid">
 </section>
 
-<div class="bg-light">
+<section id="notice" class="bg-light">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 d-flex justify-content-center d-flex align-items-center">
@@ -65,9 +66,9 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="bg-gradiant-section">
+<section id="promote-toy" class="bg-gradiant-section">
     <div class="container p-5">
         <div class="row">
             <div class="col-sm-12 col-md-6 d-flex justify-content-center d-flex align-items-center">
@@ -75,26 +76,24 @@
             </div>
             <div class="col-sm-12 col-md-6 text-center text-white p-5">
                 <h4>Con todos nosotros ... ¡el juguete más esperado del año!</h4>
-                <h1 class="title-rocket p-5">MedacRocket</h1>
+                <h1 class="title-rocket p-5 text-center">MedacRocket</h1>
                 <h4>Un cohete con multiples piezas para construir y personalizar a tu gusto. <br>¿Quieres saber más?
                 </h4>
                 <a href="toy-parts-section.html" role="button" class="btn btn-warning my-2">Entra aquí</a>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-
-<div class="bg-light">
+<section id="novedates" class="bg-light">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <div class="py-5">
                     <h1 class="title display-2 text-center text-warning"><b>Novedades</b></h1>
                     <h1 class="pt-5 text-center"><b>¡Juegos Online!</b></h1>
-                    <p class="text-center">Fomenta el pensamiento lógico y cientifico de los más pequeños de la casa con
-                        estos
-                        divertidos juegos online.
+                    <p class="text-center">Fomenta el pensamiento lógico y cientifico de los más pequeños de la casa
+                        con estos divertidos juegos online.
                     </p>
 
                     <div class="d-grid gap-2 col-3 mx-auto">
@@ -107,8 +106,7 @@
             </div>
         </div>
     </div>
-</div>
-
+</section>
 
 <footer class="container-fluid p-5 bg-blue-section">
     <div class="row">
@@ -142,5 +140,4 @@
         crossorigin="anonymous">
 </script>
 </body>
-
 </html>

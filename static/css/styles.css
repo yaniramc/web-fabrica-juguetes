@@ -52,13 +52,14 @@
 .nav-link {
     color: rgb(0, 0, 0, 0.55);
 }
+
 .nav-link:hover {
-  color: #186CCC;
-}
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: #186CCC;
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color: #186CCC;
+}
 
 
 /* CONTENIDO */
@@ -90,4 +91,14 @@ se hace grande(max-width: 754px), los botones se ven en el lateral izquierdo.
     }
 }
 
+/* Efecto de tarjetas */
+.card {
+    background-color: white;
+    transition: transform .45s ease, background .45s ease;
+}
+.card:hover {
+    background-color: #186CCC;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    color: #FFFFFF;
+}
 

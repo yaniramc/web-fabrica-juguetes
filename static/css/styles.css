@@ -102,3 +102,58 @@ se hace grande(max-width: 754px), los botones se ven en el lateral izquierdo.
     color: #FFFFFF;
 }
 
+
+/* Efecto de animación de tarjetas en la página de bienvenida  */
+.animation-images1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+
+  }
+
+  to {
+    margin-left: 0%;
+
+  }
+}
+
+.animation-images2 {
+    animation-duration: 3s;
+    animation-name: slideright;
+}
+
+@keyframes slideright {
+  from {
+    margin-right: 100%;
+
+  }
+
+  to {
+    margin-right: 0%;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
